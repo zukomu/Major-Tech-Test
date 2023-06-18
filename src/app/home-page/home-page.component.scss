@@ -1,0 +1,24 @@
+@import "../../assets/scss/mixins-and-variables.scss";
+
+.intro-text{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: fit-content;
+    color: white;
+    margin: auto;
+    width: 60%;
+    h1{
+        font-size: 70px;
+        margin-top: 3em;
+        line-height: normal;
+    }
+    .about-us{
+        background-color: #209022;
+    }
+}
+.background-image{
+    background-image: url(../../assets/images/home-screen-background.jpg);
+    background-size: cover;
+    min-height: calc(100vh - 100px);
+}

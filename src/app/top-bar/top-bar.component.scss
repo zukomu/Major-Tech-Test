@@ -1,0 +1,36 @@
+@import "../../assets/scss/mixins-and-variables.scss";
+.top-bar-container{
+    height: $top-bar-height;
+    display: flex;
+    justify-content: space-around;
+    button{
+        color: $company-colour;
+        &:hover{
+            background-color: #ececec;
+        }
+        i{
+            margin: 0 10px;
+        }
+    }
+    .logo-container{
+        padding: 19.5px;
+        .logo{
+            cursor: pointer;
+        }
+    }
+}
+.top-bar-left, .top-bar-right{
+    display: flex;
+}
+.company-button{
+    display: flex;
+    align-items: center;
+    .company-logo{
+        max-height: 40px;
+        margin-right: 5px;
+    }
+    .company-logo + span{
+        font-size: 20px;
+    }
+
+}

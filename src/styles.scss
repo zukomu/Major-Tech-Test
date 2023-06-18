@@ -1,0 +1,19 @@
+@import "./assets/scss/mixins-and-variables.scss";
+button{
+    color: white;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 18px;
+    padding: 10px 20px;
+}
+html, body { 
+    height: 100%; 
+}
+body { 
+    margin: 0; 
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.mat-menu-panel{
+    max-width: 500px !important;
+}
