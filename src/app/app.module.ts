@@ -4,8 +4,8 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NoopAnimationsModule } from '@angular/platform-browser/animations';
-import { HomePageComponent } from './home-page/home-page.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
+import { HomePageComponent } from './modules/home-page/home-page.component';
+import { TopBarComponent } from './modules/top-bar/top-bar.component';
 import { MatMenuModule } from '@angular/material/menu'
 
 @NgModule({

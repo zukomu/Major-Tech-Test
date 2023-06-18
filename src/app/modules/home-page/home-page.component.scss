@@ -1,4 +1,4 @@
-@import "../../assets/scss/mixins-and-variables.scss";
+@import "../../../assets/scss/mixins-and-variables.scss";
 
 .intro-text{
     display: flex;
@@ -18,7 +18,7 @@
     }
 }
 .background-image{
-    background-image: url(../../assets/images/home-screen-background.jpg);
+    background-image: url(../../../assets/images/home-screen-background.jpg);
     background-size: cover;
     min-height: calc(100vh - 100px);
 }
